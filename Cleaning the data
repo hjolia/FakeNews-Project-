@@ -1,0 +1,21 @@
+#We started off with cleaning the data using the clean-text library
+
+def cleantext_clean(data):
+    #As clean did not have arguments for date we made our own using regular expressions 
+    date_formats = [
+        r'\d{2,4}/\d{1,2}/\d{2,4}(.*)',   #e.g 12/31/2021 or 12/31/21
+        r'\d{2,4}-\d{1,2}-\d{2,4}(.*)',   #e.g 12-31-2021 or 12-31-21
+        ]
+
+    for date_format in date_formats:
+        data = re.sub(date_format, '<DATE>', str(data))
+
+    data = clean(data, lower=True, normalize_whitespace=True, no_urls=True, no_emails = True, no_numbers= True,
+    replace_with_url="<URL>",
+    replace_with_email="<EMAIL>",
+    replace_with_number="<NUM>",)
+    return data
+    
+for column in df.columns:
+    df[column] = df[column].apply(cleantext_clean)
+
