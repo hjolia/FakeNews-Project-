@@ -2,7 +2,7 @@
 
 Preferably run the program with python 3.11.7.
 The following packages need to be installed in the environment:
-- cleantext
+- clean_text
 - numpy
 - pandas
 - matplotlib
