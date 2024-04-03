@@ -1,5 +1,6 @@
 # FakeNews-Project-
 
+This is a fake news predictor project, trained from the Fake News Corpus dataset. The program cleans the data, to then be fed into a Simple model based off logisitic regression. 
 Preferably run the program with python 3.11.7.
 The following packages need to be installed in the environment:
 - clean_text
