@@ -13,5 +13,5 @@ The following packages need to be installed in the environment:
 - tensorflow
 - gensim
 
-Run the cleantext_clean, remove_stopwords and stem_input functions on the dataset (995,000_rows.csv) to produce the cleaned .csv file (cleaned_dataset_big.csv). Save this file in the same folder as the program. The file 'reliable_scraped_data.csv' refers to a file consisting of scraped content from the BBC, which has gone through the same preprocessing as the FNC dataset. This file should and the LIAR dataset should also be saved in the same folder as the program files. 
+Run the cleantext_clean, remove_stopwords and stem_input functions on the dataset (995,000_rows.csv) to produce the cleaned .csv file (cleaned_dataset_big.csv). Save this file in the same folder as the program. The file 'reliable_scraped_data.csv' refers to a file consisting of scraped content from the BBC, which has gone through the same preprocessing as the FNC dataset. This file and the LIAR dataset should also be saved in the same folder as the program files. 
 Run both the simple and advanced model on the cleaned dataset.
