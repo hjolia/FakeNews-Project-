@@ -18,4 +18,4 @@ The following packages need to be installed in the environment:
 'test.tsv' is a file from the LIAR dataset. 
 'cleaned_dataset_big.csv' is the '995,000_rows.csv' file after has going through cleaning. Run the cleantext_clean, remove_stopwords and stem_input functions on the dataset (995,000_rows.csv) to produce this file. 
 
-To run the programs, ensure all files used in the program are saved in the same folder as the program. 
+To run the programs, ensure all files used in the program are saved in the same folder as the programs. 
